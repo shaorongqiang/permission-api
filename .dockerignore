@@ -1,0 +1,42 @@
+# Git相关
+.git
+.gitignore
+
+# 构建产物
+target/
+**/target/
+
+# 依赖缓存
+Cargo.lock
+
+# 文档
+README.md
+*.md
+
+# 开发工具
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 测试文件
+**/tests/
+**/*_test.rs
+
+# 日志文件
+*.log
+
+# 临时文件
+*.tmp
+*.temp
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini 
